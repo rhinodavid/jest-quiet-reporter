@@ -21,21 +21,20 @@
     "tty": "1.0.1",
     "typescript": "5.3.3"
   },
-  "keywords": [
-    "jest",
-    "testing",
-    "typescript",
-    "ci",
-    "tdd"
-  ],
+  "homepage": "https://github.com/rhinodavid/jest-quiet-reporter",
+  "keywords": ["jest", "testing", "typescript", "ci", "tdd"],
   "license": "MIT",
   "main": "__build__/QuietReporter.js",
   "name": "jest-quiet-reporter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhinodavid/jest-quiet-reporter.git"
+  },
   "scripts": {
     "build": "tsc",
     "fix": "prettier --write .",
     "test": "jest"
   },
   "types": "src/QuietReporter.ts",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
