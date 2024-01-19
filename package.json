@@ -1,0 +1,36 @@
+{
+  "author": "rhinodavid",
+  "dependencies": {
+    "@jest/console": "29.7.0",
+    "@jest/reporters": "29.7.0",
+    "chalk": "4.1.2",
+    "jest-message-util": "29.7.0",
+    "jest-util": "29.7.0",
+    "slash": "3.0.0",
+    "string-length": "4.0.2",
+    "strip-ansi": "6.0.0"
+  },
+  "description": "A Jest reporter that doesn't spam the console",
+  "devDependencies": {
+    "@jest/test-result": "29.7.0",
+    "@jest/types": "29.6.3",
+    "@types/jest": "29.5.8",
+    "tty": "1.0.1",
+    "typescript": "5.3.3"
+  },
+  "keywords": [
+    "jest",
+    "testing",
+    "typescript",
+    "ci",
+    "tdd"
+  ],
+  "license": "MIT",
+  "main": "__build__/QuietReporter.js",
+  "name": "jest-quiet-reporter",
+  "scripts": {
+    "build": "tsc",
+    "fix": "prettier --write ."
+  },
+  "version": "1.0.0"
+}
