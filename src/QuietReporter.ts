@@ -15,7 +15,7 @@ import {
   separateMessageFromStack,
 } from "jest-message-util";
 import { clearLine, isInteractive } from "jest-util";
-import type { WriteStream } from "tty";
+import type { WriteStream } from "node:tty";
 import Status from "./Status";
 import getResultHeader from "./getResultHeader";
 import getSnapshotStatus from "./getSnapshotStatus";
