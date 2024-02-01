@@ -49,9 +49,6 @@ devDependencies:
   ts-node:
     specifier: 10.9.2
     version: 10.9.2(@types/node@20.11.5)(typescript@5.3.3)
-  tty:
-    specifier: 1.0.1
-    version: 1.0.1
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -2184,10 +2181,6 @@ packages:
       typescript: 5.3.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
-    dev: true
-
-  /tty@1.0.1:
-    resolution: {integrity: sha512-yCPqGIuidycVkRigBDshlGDLKu9+p4JKtBQijtYcI7ZnWwak56vwT7y7dGGTcxG+ecjxgWQOPWuvlePmxC5S2w==}
     dev: true
 
   /type-detect@4.0.8:
